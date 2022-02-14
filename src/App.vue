@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
-    <HelloWorld msg="Hällo WPG7"/>
-    <Raten msg="Versuche die Zahl zu erraten!"
+    <img alt="Vue logo" src="https://vuejs.org/images/logo.png" />
+    <HelloWorld msg="Hällo WPG7" />
+    <Raten msg="Versuche die Zahl zu erraten!" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import HelloWorld from './components/HelloWorld.vue';
+import Raten from './components/Raten.vue';
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    Raten,
+  },
+};
 </script>
 
 <style>
