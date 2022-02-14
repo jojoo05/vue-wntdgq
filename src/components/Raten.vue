@@ -21,7 +21,7 @@ export default {
   watch: {
     unserVariablenName: (neuerWert, alterWert) => {
       //bzw. val und oldval
-      console.log(alterWert - neuerWer);
+      console.log(alterWert - neuerWert);
     },
   },
 };
