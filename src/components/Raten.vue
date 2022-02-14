@@ -12,10 +12,17 @@ export default {
   data: () => {
     return {
       unserVariablenName: 0,
+      differenz: 0,
     };
   },
   props: {
     msg: String,
+  },
+  watch: {
+    unserVariablenName: (neuerWert, alterWert) => {
+      //bzw. val und oldval
+      console.log(alterWert - neuerWer);
+    },
   },
 };
 </script>
